@@ -1,0 +1,596 @@
+::-moz-selection {
+    color: rgb(255, 255, 255);
+    background: rgb(211, 179, 0);
+  }
+  
+  ::selection {
+    color: rgb(255, 255, 255);
+    background: rgb(211, 179, 0);
+  }
+
+.navbar {
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+    position: fixed; 
+    position: absolute;
+    top: 0;
+    width: 99%;
+    height: 50px;
+}
+.navbar a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition: 1s;
+  }
+  
+
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+    transition: 1s;
+}
+
+.cosmos-header{
+    text-align: center;
+    font-weight: 900;
+    font-size: 3em;
+    position: relative;
+    color: white;
+    display: inline-block;
+    padding-left: 17em;
+}
+
+.header{
+    padding-top: 150px;
+    padding-left: 117em;
+    border-radius: 30px;
+    display: inline-block;
+    background-image: url(main-photo/purple-cosmos-stars-space.jpg);
+    position: absolute;
+    box-shadow: 0px 0px 10px rgb(102, 0, 128);
+}
+
+body{
+    background-color: rgb(114, 54, 211);
+}
+
+.universe-img{
+    float: left;
+    padding: 5px;
+    width: 250px;
+    height: 250px;
+}
+.universe-img:hover{
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+    @-moz-keyframes spin { 
+    100% { -moz-transform: rotate(360deg); } 
+}
+@-webkit-keyframes spin { 
+    100% { -webkit-transform: rotate(360deg); } 
+}
+@keyframes spin { 
+    100% { 
+        -webkit-transform: rotate(360deg); 
+        transform:rotate(360deg); 
+    } 
+}
+}
+
+.galaxy-img{
+    float: left;
+    padding: 5px;
+    width: 250px;
+    height: 250px;
+}
+.galaxy-img:hover{
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+@-moz-keyframes spin { 
+    100% { -moz-transform: rotate(360deg); } 
+}
+@-webkit-keyframes spin { 
+    100% { -webkit-transform: rotate(360deg); } 
+}
+@keyframes spin { 
+    100% { 
+        -webkit-transform: rotate(360deg); 
+        transform:rotate(360deg); 
+    } 
+}
+
+
+.solar-system-img{
+    float: left;
+    padding: 5px;
+    width: 250px;
+    height: 250px;
+}
+.solar-system-img:hover{
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+@-moz-keyframes spin { 
+    100% { -moz-transform: rotate(360deg); } 
+}
+@-webkit-keyframes spin { 
+    100% { -webkit-transform: rotate(360deg); } 
+}
+@keyframes spin { 
+    100% { 
+        -webkit-transform: rotate(360deg); 
+        transform:rotate(360deg); 
+    } 
+}
+
+
+
+.sun-img{
+    float: left;
+    padding: 5px;
+    width: 250px;
+    height: 250px;
+}
+.sun-img:hover{
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+@-moz-keyframes spin { 
+    100% { -moz-transform: rotate(360deg); } 
+}
+@-webkit-keyframes spin { 
+    100% { -webkit-transform: rotate(360deg); } 
+}
+@keyframes spin { 
+    100% { 
+        -webkit-transform: rotate(360deg); 
+        transform:rotate(360deg); 
+    } 
+}
+
+
+.earth-img{
+    float: left;
+    padding: 5px;
+    width: 250px;
+    height: 250px;
+}
+.earth-img:hover{
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+@-moz-keyframes spin { 
+    100% { -moz-transform: rotate(360deg); } 
+}
+@-webkit-keyframes spin { 
+    100% { -webkit-transform: rotate(360deg); } 
+}
+@keyframes spin { 
+    100% { 
+        -webkit-transform: rotate(360deg); 
+        transform:rotate(360deg); 
+    } 
+}
+
+
+.container{
+    display: grid;
+    grid-template-columns:20% 20% 20% 20% 20%;
+    align-items: center;
+    background-color: rgb(48, 7, 126);
+    padding-bottom: 60px;
+    padding-top: 30px;
+    padding-left: 3em;
+    box-shadow: 0px 0px 30px rgb(48, 7, 126);
+    width: 97.5%;
+}
+
+.universe-text{
+    color: rgb(255, 255, 255);
+    background-color: rgb(124, 0, 226);
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 270px;
+    left: -180px;
+    border-style: solid;
+    border: none;
+    width: 90px;
+    height: 30px;
+    border-radius: 20px;
+    transition: 1s;
+    box-shadow: 0px 0px 40px rgb(124, 0, 226)
+}
+
+.universe-text:hover{
+    box-shadow: 0px 0px 20px rgb(255, 255, 255);
+    color: rgb(93, 0, 136);
+    background-color: white;
+    transition: 1s;
+}
+
+.universe-text::after{
+    background-color: transparent 80%;
+}
+
+.solar-system-text{
+    color: rgb(255, 255, 255);
+    background-color: rgb(226, 128, 0);
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 25px;
+    left: 80px;
+    border-style: solid;
+    border: none;
+    width: 110px;
+    height: 30px;
+    border-radius: 20px;
+    transition: 1s;
+    box-shadow: 0px 0px 40px rgb(226, 128, 0);
+}
+
+.solar-system-text:hover{
+    box-shadow: 0px 0px 20px rgb(255, 255, 255);
+    color: rgb(226, 128, 0);
+    background-color: white;
+    transition: 1s;
+}
+
+.solar-system-text::after{
+    background-color: transparent 80%;
+}
+
+.earth-text{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 174, 255);
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 270px;
+    left: -180px;
+    border-style: solid;
+    border: none;
+    width: 90px;
+    height: 30px;
+    border-radius: 20px;
+    transition: 1s;
+    box-shadow: 0px 0px 40px rgb(0, 174, 255);
+}
+
+.earth-text:hover{
+    box-shadow: 0px 0px 20px rgb(255, 255, 255);
+    color: rgb(0, 174, 255);
+    background-color: white;
+    transition: 1s;
+}
+
+.earth-text::after{
+    background-color: transparent 80%;
+}
+
+.galaxy-text{
+    color: rgb(255, 255, 255);
+    background-color: rgb(177, 155, 255);
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 270px;
+    left: -180px;
+    border-style: solid;
+    border: none;
+    width: 90px;
+    height: 30px;
+    border-radius: 20px;
+    transition: 1s;
+    box-shadow: 0px 0px 40px rgb(177, 155, 255);
+}
+
+.galaxy-text:hover{
+    box-shadow: 0px 0px 20px rgb(255, 255, 255);
+    color: rgb(177, 155, 255);
+    background-color: white;
+    transition: 1s;
+}
+
+.galaxy-text::after{
+    background-color: transparent 80%;
+}
+
+.sun-text{
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 208, 0);
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 270px;
+    left: -180px;
+    border-style: solid;
+    border: none;
+    width: 90px;
+    height: 30px;
+    border-radius: 20px;
+    transition: 1s;
+    box-shadow: 0px 0px 40px rgb(255, 208, 0);
+}
+
+.sun-text:hover{
+    box-shadow: 0px 0px 20px rgb(255, 255, 255);
+    color: rgb(255, 208, 0);
+    background-color: white;
+    transition: 1s;
+}
+
+.sun-text::after{
+    background-color: transparent 80%;
+}
+
+.bottom{
+    width: 100%;
+    height: 20em;
+    background-color: rgb(24, 24, 24);
+    border-radius: 50px;
+}
+
+.about-C{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    position: relative;
+    left: 27em;
+    top: 0px;
+    padding: 10px;
+    transition: 1s;
+}
+.about-C:hover{
+    background-color: white;
+    color: black;
+    transition: 1s;
+}
+.about-cr{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    position: relative;
+    left: 32em;
+    top: 0px;
+    padding: 10px;
+    transition: 1s;
+}
+.about-cr:hover{
+    background-color: white;
+    color: black;
+    transition: 1s;
+}
+.contact{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    position: relative;
+    left: 37em;
+    top: 0px;
+    padding: 10px;
+    transition: 1s;
+}
+.contact:hover{
+    background-color: white;
+    color: black;
+    transition: 1s;
+}
+
+.terms{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    position: relative;
+    left: 42em;
+    top: 0px;
+    padding: 10px;
+    transition: 1s;
+}
+.terms:hover{
+    background-color: white;
+    color: black;
+    transition: 1s;
+}
+
+.copyright{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    position: relative;
+    left: 47em;
+    top: 0px;
+    padding: 10px;
+    transition: 1s;
+}
+.copyright:hover{
+    background-color: white;
+    color: black;
+    transition: 1s;
+}
+
+.space-questions{
+    position: absolute;
+    top: 90em;
+    left: 16em;
+    width: 190px;
+    height: 35px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: rgb(255, 219, 57);
+    border: none;
+    transition: 1s;
+}
+
+.space-questions:hover{
+    box-shadow: 0px 0px 90px rgb(255, 219, 57);
+    transition: 1s;
+}
+
+.space-games{
+    position: absolute;
+    left: 67em;
+    top: 55em;
+    border-style: solid;
+    width: 200px;
+    height: 35px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: rgb(252, 109, 53);
+    box-shadow: 0px 0px 15px rgb(252, 109, 53);
+    border: none;
+}
+
+.line{
+    position: absolute;
+    width: 5px;
+    height: 380px;
+    background-color: black;
+    left: 59em;
+    bottom: -440px;
+}
+
+.signin{
+    position: relative;
+    left: 10em;
+    bottom: -12em;
+    width: 80px;
+    height: 35px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    transition: 1s;
+}
+.signin:hover{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 90px rgb(255, 255, 255);
+    transition: 1s;
+}
+
+.signup{
+    position: relative;
+    left: 18em;
+    bottom: -12em;
+    width: 80px;
+    height: 35px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    transition: 1s;
+}
+
+.signup:hover{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 90px rgb(255, 255, 255);
+    transition: 1s;
+}
+
+.input{
+    position: relative;
+    left: 95em;
+    top: 10px;
+    width: 200px;
+    height: 25px;
+    transition: 1.5s;
+}
+
+.input:hover{
+    width: 350px;
+    left: 82.5em;
+    transition: 1.5s;
+}
+
+.search{
+    width: 33px;
+    height: 33px;
+    position: relative;
+    left: 90em;
+    top: 31px;
+}
+
+.question-section{
+    position: relative;
+    top: 20px;
+    left: 150px;
+}
+
+.space-g{
+    width: 50em; 
+    height: 40em;
+    position: relative;
+    left: 30%;
+}
+
+.github-img{
+    width: 50px; 
+    height: 50px;
+    position: absolute;
+    -webkit-filter: invert(100%);
+    position: relative;
+    top: 6em;
+    left: -3em;
+    transition: 1s;
+}
+.github-img:hover{
+    box-shadow: 0px 0px 90px black;
+    transition: 1s;
+}
+
+.instagram-img{
+    width: 50px; 
+    height: 50px;
+    position: absolute;
+    -webkit-filter: invert(100%);
+    position: relative;
+    top: 6em;
+    left: 2em;
+    transition: 1s;
+}
+.instagram-img:hover{
+    box-shadow: 0px 0px 90px black;
+    transition: 1s;
+}
+
+.gmail-img{
+    width: 65px; 
+    height: 65px;
+    position: absolute;
+    -webkit-filter: invert(100%);
+    position: relative;
+    top: 6.3em;
+    left: 7em;
+    transition: 1s;
+}
+.gmail-img:hover{
+    box-shadow: 0px 0px 90px black;
+    transition: 1s;
+}
+
+.cosmos-first{
+    position: absolute;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    top: 15px;
+    left: 40px;
+    font-size: 20px;
+}

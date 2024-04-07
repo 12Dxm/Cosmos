@@ -1,0 +1,323 @@
+body{
+    background-color: rgb(114, 54, 211);
+}
+
+::-moz-selection {
+    color: rgb(255, 255, 255);
+    background: rgb(211, 179, 0);
+  }
+  
+  ::selection {
+    color: rgb(255, 255, 255);
+    background: rgb(211, 179, 0);
+  }
+
+html{
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+.navbar {
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+    position: fixed; 
+    position: absolute;
+    top: 0;
+    width: 99%;
+    height: 50px;
+}
+.navbar a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition: 1s;
+  }
+  
+
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+    transition: 1s;
+}
+
+.input{
+    position: relative;
+    left: 95em;
+    top: 10px;
+    width: 200px;
+    height: 25px;
+    transition: 1.5s;
+}
+
+.input:hover{
+    width: 350px;
+    left: 82.5em;
+    transition: 1.5s;
+}
+
+.cosmos-first{
+    position: absolute;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    left: 40px;
+    font-size: 20px;
+    top: 15px;
+}
+
+.container{
+    background-color: rgb(114, 54, 211);
+    box-shadow: 0px 0px 70px rgb(167, 167, 167);
+    width: 65em;
+    height: 115em;
+    position: relative;
+    left: 26em;
+    border-radius: 30px;
+}
+
+.container2{
+    background-color: rgb(114, 54, 211);
+    box-shadow: 0px 0px 70px rgb(167, 167, 167);
+    width: 92%;
+    height: 30em;
+    left: 5em;
+    position: relative;
+    border-radius: 30px;
+    bottom: -5em;
+}
+
+.uni-text{
+    text-align: center;
+    font-size: 45px;
+    color: rgb(255, 255, 255);
+    position: relative;
+    top: 20px;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding-left: 25px;
+    font-weight: 400;
+    color: white;
+    padding-right: 25px;
+}
+
+h2{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    padding-left: 25px;
+    font-weight: 600;
+    position: relative;
+}
+
+.h2-info{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    position: relative;
+    left: 1em;
+    top: 1em;
+}
+
+.earth-txt{
+    position: relative;
+    bottom: 63em;
+    left: 51em;   
+    color: black; 
+}
+
+.age-txt{
+    position: relative;
+    bottom: 85.5em;
+    left: 69.7em;   
+    color: black; 
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+}
+
+.p11{
+    position: relative;
+    top: 2em;
+}
+
+.bottom{
+    width: 99%;
+    height: 20em;
+    background-color: rgb(24, 24, 24);
+    border-radius: 50px;
+    position: absolute;
+    top: 165em;
+}
+
+.about-C{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    position: relative;
+    left: 27em;
+    top: 0px;
+    padding: 10px;
+    transition: 1s;
+}
+.about-C:hover{
+    background-color: white;
+    color: black;
+    transition: 1s;
+}
+.about-cr{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    position: relative;
+    left: 32em;
+    top: 0px;
+    padding: 10px;
+    transition: 1s;
+}
+.about-cr:hover{
+    background-color: white;
+    color: black;
+    transition: 1s;
+}
+.contact{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    position: relative;
+    left: 37em;
+    top: 0px;
+    padding: 10px;
+    transition: 1s;
+}
+.contact:hover{
+    background-color: white;
+    color: black;
+    transition: 1s;
+}
+
+.terms{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    position: relative;
+    left: 42em;
+    top: 0px;
+    padding: 10px;
+    transition: 1s;
+}
+.terms:hover{
+    background-color: white;
+    color: black;
+    transition: 1s;
+}
+
+.copyright{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    position: relative;
+    left: 47em;
+    top: 0px;
+    padding: 10px;
+    transition: 1s;
+}
+.copyright:hover{
+    background-color: white;
+    color: black;
+    transition: 1s;
+}
+
+.signin{
+    position: relative;
+    left: 10em;
+    bottom: -12em;
+    width: 80px;
+    height: 35px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    transition: 1s;
+}
+.signin:hover{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 90px rgb(255, 255, 255);
+    transition: 1s;
+}
+
+.signup{
+    position: relative;
+    left: 18em;
+    bottom: -12em;
+    width: 80px;
+    height: 35px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    transition: 1s;
+}
+
+.signup:hover{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 90px rgb(255, 255, 255);
+    transition: 1s;
+}
+
+.github-img{
+    width: 50px; 
+    height: 50px;
+    position: absolute;
+    -webkit-filter: invert(100%);
+    position: relative;
+    top: 6em;
+    left: -3em;
+    transition: 1s;
+}
+.github-img:hover{
+    box-shadow: 0px 0px 90px black;
+    transition: 1s;
+}
+
+.instagram-img{
+    width: 50px; 
+    height: 50px;
+    position: absolute;
+    -webkit-filter: invert(100%);
+    position: relative;
+    top: 6em;
+    left: 2em;
+    transition: 1s;
+}
+.instagram-img:hover{
+    box-shadow: 0px 0px 90px black;
+    transition: 1s;
+}
+
+.gmail-img{
+    width: 65px; 
+    height: 65px;
+    position: absolute;
+    -webkit-filter: invert(100%);
+    position: relative;
+    top: 6.3em;
+    left: 7em;
+    transition: 1s;
+}
+.gmail-img:hover{
+    box-shadow: 0px 0px 90px black;
+    transition: 1s;
+}

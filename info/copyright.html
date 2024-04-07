@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    body{
+        background-color: rgb(114, 54, 211);
+    }
+    .navbar {
+    background-color: rgb(0, 0, 0);
+    position: fixed; 
+    position: absolute;
+    top: 0;
+    width: 99%;
+    height: 50px;
+}
+.a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition: 1s;
+    position: relative;
+    top: -1em;
+  }
+  
+
+.a:hover {
+    background: #ddd;
+    color: black;
+    transition: 1s;
+}
+
+.input{
+    position: relative;
+    left: 95em;
+    top: 10px;
+    width: 200px;
+    height: 25px;
+    transition: 1.5s;
+    top: -0.5em;
+}
+
+.input:hover{
+    width: 350px;
+    left: 82.5em;
+    transition: 1.5s;
+}
+h3{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    color: rgb(255, 234, 44);
+}
+
+.bottom{
+    width: 99%;
+    height: 20em;
+    background-color: rgb(24, 24, 24);
+    border-radius: 50px;
+    position: absolute;
+    top: 60em;
+}
+
+.about-C{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    position: relative;
+    left: 27em;
+    top: 0px;
+    padding: 10px;
+    transition: 1s;
+}
+.about-C:hover{
+    background-color: white;
+    color: black;
+    transition: 1s;
+}
+.about-cr{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    position: relative;
+    left: 32em;
+    top: 0px;
+    padding: 10px;
+    transition: 1s;
+}
+.about-cr:hover{
+    background-color: white;
+    color: black;
+    transition: 1s;
+}
+.contact{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    position: relative;
+    left: 37em;
+    top: 0px;
+    padding: 10px;
+    transition: 1s;
+}
+.contact:hover{
+    background-color: white;
+    color: black;
+    transition: 1s;
+}
+
+.terms{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    position: relative;
+    left: 42em;
+    top: 0px;
+    padding: 10px;
+    transition: 1s;
+}
+.terms:hover{
+    background-color: white;
+    color: black;
+    transition: 1s;
+}
+
+.copyright{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    position: relative;
+    left: 47em;
+    top: 0px;
+    padding: 10px;
+    transition: 1s;
+}
+.copyright:hover{
+    background-color: white;
+    color: black;
+    transition: 1s;
+}
+
+.signin{
+    position: relative;
+    left: 10em;
+    bottom: -12em;
+    width: 80px;
+    height: 35px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    transition: 1s;
+}
+.signin:hover{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 90px rgb(255, 255, 255);
+    transition: 1s;
+}
+
+.signup{
+    position: relative;
+    left: 18em;
+    bottom: -12em;
+    width: 80px;
+    height: 35px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    transition: 1s;
+}
+
+.signup:hover{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 90px rgb(255, 255, 255);
+    transition: 1s;
+}
+
+.github-img{
+    width: 50px; 
+    height: 50px;
+    position: absolute;
+    -webkit-filter: invert(100%);
+    position: relative;
+    top: 6em;
+    left: -3em;
+    transition: 1s;
+}
+.github-img:hover{
+    box-shadow: 0px 0px 90px black;
+    transition: 1s;
+}
+
+.instagram-img{
+    width: 50px; 
+    height: 50px;
+    position: absolute;
+    -webkit-filter: invert(100%);
+    position: relative;
+    top: 6em;
+    left: 2em;
+    transition: 1s;
+}
+.instagram-img:hover{
+    box-shadow: 0px 0px 90px black;
+    transition: 1s;
+}
+
+.gmail-img{
+    width: 65px; 
+    height: 65px;
+    position: absolute;
+    -webkit-filter: invert(100%);
+    position: relative;
+    top: 6.3em;
+    left: 7em;
+    transition: 1s;
+}
+.gmail-img:hover{
+    box-shadow: 0px 0px 90px black;
+    transition: 1s;
+}
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div>
+            <div class="cosmos-first">C Ø S M Ø S</div>
+            <input type="text" class="input" placeholder="Search something">
+            <a href="" class="a">My Portofolio</a>
+            <a href="/spaces-games.html" class="a">Games</a>
+            <a href="sign/signup.html" class="a">Sign up</a>
+            <a href="/inner.html" class="a">Home</a>
+    </div>
+
+    <br><br><br><br><br>
+    <h1 style="color: white; font-family: Arial, Helvetica, sans-serif; text-align: center;">Links to website content</h1>
+    <br><br>
+    <h3>Earth information:  <a href="https://www.nationalgeographic.com/science/article/earth"> National geographic</a></h3>
+    <h3>Earth-Moon information:  <a href="https://education.nationalgeographic.org/resource/moon/"> National geographic</a></h3>
+    <h3>Earth-Atmosphere information:  <a href="https://education.nationalgeographic.org/resource/atmosphere/"> National geographic</a></h3>
+    <br>
+    <h3>Sun information:  <a href="https://education.nationalgeographic.org/resource/sun/"> National geographic</a></h3>
+    <br>
+    <h3>Solar-System information:  <a href="https://www.britannica.com/science/solar-system/Origin-of-the-solar-system"> Britannica</a></h3>
+    <br>
+    <h3>Galaxy information:  <a href="https://www.nationalgeographic.com/science/article/galaxies"> National Geographic</a></h3>
+    <h3>Galaxy-Milky-Way information:  <a href="https://kids.nationalgeographic.com/space/article/milky-way"> National Geographic</a></h3>
+
+
+    <div class="bottom" id="bottom">
+        <a href="/info/abt-cosmos.html" class="about-C">About C Ø S M Ø S</a>
+        <a href="/info/portofolio.html" class="about-cr">My portofolio</a>
+        <a href="/info/contact.html" class="contact">Contact us</a>
+        <a href="/info/terms.html" class="terms">Terms & Service</a>
+        <a href="/info/copyright.html" class="copyright">Copyright</a>
+        <a href="/sign/signin.html"><button class="signin">Sign in</button></a>
+        <a href="/sign/signup.html"><button class="signup">Sign up</button></a>
+        <a href="https://github.com/12Dxm"><img src="/main-photo/github.png" alt="" class="github-img"></a>
+    <a href="https://www.instagram.com/dima.g12/"><img src="/main-photo/insta.png" alt="" class="instagram-img"></a>
+    <a href="https://mail.google.com/mail/u/0/#inbox?compose=new"><img src="/main-photo/envelope.png" alt="" class="gmail-img"></a>
+</body>
+</html>
